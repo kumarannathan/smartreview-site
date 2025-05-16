@@ -12,6 +12,7 @@ function App() {
         <div className="nav-links">
           <a href="#features">Features</a>
           <a href="#how">How it Works</a>
+          <a href="#video" className="how-to-use-link">How to Use</a>
           <a href="#faq">FAQ</a>
           <a href="#get">Get Extension</a>
         </div>
@@ -67,6 +68,13 @@ function App() {
           <li>Browse Amazon as usual</li>
           <li>Click the SmartReview icon for an instant, AI-generated review summary — all in seconds.</li>
         </ol>
+      </section>
+      <section className="video-demo" id="video">
+        <h2>See SmartReview in Action</h2>
+        <video className="demo-video" autoPlay loop muted playsInline poster="/video-poster.png" style={{borderRadius: '20px', maxWidth: '100%', boxShadow: '0 4px 32px 0 rgba(29,233,182,0.10)'}}>
+          <source src="/recording.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </section>
       <footer className="footer">
         <span>© {new Date().getFullYear()} SmartReview. All rights reserved.</span>

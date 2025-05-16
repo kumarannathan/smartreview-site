@@ -265,3 +265,28 @@
     padding: 0.7rem 1vw 0.7rem 1vw;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.video-demo {
+  margin: 3vw auto 3vw auto;
+  max-width: 900px;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.demo-video {
+  border-radius: 20px;
+  max-width: 100%;
+  box-shadow: 0 4px 32px 0 rgba(29,233,182,0.10);
+  margin-top: 1.2rem;
+}
+.video-demo h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
