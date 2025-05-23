@@ -76,6 +76,37 @@ function App() {
           Your browser does not support the video tag.
         </video>
       </section>
+      <section className="privacy-policy" id="privacy">
+        <h2>Privacy Policy</h2>
+        <div className="privacy-content">
+          <p className="privacy-intro">At SmartReview, we believe in complete transparency and minimal data usage. We do not collect or store any personal information.</p>
+          
+          <div className="privacy-section">
+            <h3>How We Work</h3>
+            <p>SmartReview operates entirely in real-time:</p>
+            <ul>
+              <li>We analyze product reviews only when you visit an Amazon product page</li>
+              <li>No data is stored on our servers</li>
+              <li>No personal information is collected</li>
+            </ul>
+          </div>
+
+          <div className="privacy-section">
+            <h3>Data Processing</h3>
+            <p>Our AI analyzes reviews in real-time to provide you with instant summaries. This analysis happens locally in your browser and is not stored anywhere.</p>
+          </div>
+
+          <div className="privacy-section">
+            <h3>Your Privacy</h3>
+            <p>Since we don't collect or store any data, there's nothing to protect. Your browsing remains completely private.</p>
+          </div>
+
+          <div className="privacy-section">
+            <h3>Transparency</h3>
+            <p>We're committed to maintaining this zero-data-collection approach. If you have any questions about how SmartReview works, please don't hesitate to contact us.</p>
+          </div>
+        </div>
+      </section>
       <footer className="footer">
         <span>© {new Date().getFullYear()} SmartReview. All rights reserved.</span>
       </footer>
